@@ -1,0 +1,29 @@
+{
+  "name": "hls-downloader",
+  "version": "1.0.0",
+  "description": "HLS stream downloader and converter to MP4",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "web": "node src/web.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/test.js",
+    "benchmark": "node src/benchmark.js",
+    "cleanup": "node cleanup.js"
+  },
+  "keywords": ["hls", "downloader", "m3u8", "mp4", "converter"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
