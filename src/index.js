@@ -27,10 +27,10 @@ program
   .option('--sequential', '순차 다운로드 사용 (병렬 다운로드 비활성화)')
   .action(async (options) => {
     try {
-      console.log('🚀 HLS 다운로더 시작');
-      console.log(`📡 URL: ${options.url}`);
-      console.log(`💾 출력: ${options.output}`);
-      console.log(`🎯 품질: ${options.quality}`);
+      console.log(' HLS 다운로더 시작');
+      console.log(` URL: ${options.url}`);
+      console.log(` 출력: ${options.output}`);
+      console.log(` 품질: ${options.quality}`);
       console.log('');
 
       // 출력 디렉토리 생성

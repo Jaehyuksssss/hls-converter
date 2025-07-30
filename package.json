@@ -10,7 +10,8 @@
     "dev": "node --watch src/index.js",
     "test": "node src/test.js",
     "benchmark": "node src/benchmark.js",
-    "cleanup": "node cleanup.js"
+    "cleanup": "node cleanup.js",
+    "player": "node src/player.js"
   },
   "keywords": ["hls", "downloader", "m3u8", "mp4", "converter"],
   "author": "",

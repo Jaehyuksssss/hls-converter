@@ -235,9 +235,9 @@ class HLSDownloader {
   async cleanup() {
     try {
       await fs.remove(this.tempDir);
-      console.log('🧹 임시 파일 정리 완료');
+      console.log(' 임시 파일 정리 완료');
     } catch (error) {
-      console.warn('⚠️ 임시 파일 정리 실패:', error.message);
+      console.warn(' 임시 파일 정리 실패:', error.message);
     }
   }
 

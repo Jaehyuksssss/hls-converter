@@ -60,6 +60,22 @@ npm start -- --url "https://example.com/stream.m3u8" --keep-temp
 npm start -- --url "https://example.com/stream.m3u8" --no-convert
 ```
 
+### 🎬 HLS 플레이어 사용법
+
+```bash
+# 스트림 정보 확인
+npm run player -- info --url "https://example.com/stream.m3u8"
+
+# 상세 정보 확인
+npm run player -- info --url "https://example.com/stream.m3u8" --detailed
+
+# 스트림 유효성 검사
+npm run player -- validate --url "https://example.com/stream.m3u8"
+
+# 통계 분석
+npm run player -- stats --url "https://example.com/stream.m3u8"
+```
+
 ### 웹 인터페이스
 
 ```bash

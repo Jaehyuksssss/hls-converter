@@ -30,6 +30,11 @@ class WebServer {
       res.sendFile(path.join(__dirname, '../public/index.html'));
     });
 
+    // HLS 플레이어 페이지
+    this.app.get('/player', (req, res) => {
+      res.sendFile(path.join(__dirname, '../public/player.html'));
+    });
+
     // 다운로드 시작
     this.app.post('/api/download', async (req, res) => {
       try {
