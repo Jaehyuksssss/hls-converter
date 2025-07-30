@@ -2,6 +2,8 @@
 
 .m3u8 주소만 있으면 HLS 스트림을 다운로드하고 MP4로 변환하는 프로그램입니다.
 
+test : https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
 ##  기능
 
 -  HLS 스트림 (.m3u8) 다운로드
